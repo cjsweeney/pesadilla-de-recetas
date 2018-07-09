@@ -1,0 +1,68 @@
+		TITLE OF RECIPE:	pecan wild rice pilaf
+Relevant token found!!!		pecan
+Relevant token found!!!		wild
+Relevant token found!!!		rice
+Relevant token found!!!		pilaf
+title_tokens, after alphabetization:	{ [1] = pecan,[2] = pilaf,[3] = rice,[4] = wild,} 
+something was just added to step_table:	in a medium saucepan , bring broth to a boil .
+something was just added to step_table:	bring back to a boil , reduce heat to medium-low and cook , covered , for 50 minutes or until rice is tender .
+something was just added to step_table:	while the rice is cooking , in another saucepan bring about 21/4 cups water to a boil .
+something was just added to step_table:	reduce heat to low and simmer 15 minutes , or until pilaf is tender .
+something was just added to step_table:	add remaining ingredients and toss well .
+something was just added to step_table:	easy .
+something was just added to step_table:	approximate measurement ok .
+counter number:	143903	ing_strings:	{4 c chicken broth,1 c wild rice rinsed well,1 3/4 c wheat pilaf,1 c pecan halves,1 c currants dried,1 scallion bunch thinly sliced,1/2 c italian parsley chopped,1/2 c fresh mint leaves chopped,zest of 2 oranges grated,2 t olive oil,1 t orange juice,black pepper freshly ground}
+current ingredient: 	4 c chicken broth
+new_tokens: 	{ [1] = chicken,[2] = broth,} 
+current ingredient: 	1 c wild rice rinsed well
+new_tokens: 	{ [1] = wild,[2] = rice,[3] = rinsed,[4] = well,} 
+current ingredient: 	1 3/4 c wheat pilaf
+new_tokens: 	{ [1] = wheat,[2] = pilaf,} 
+current ingredient: 	1 c pecan halves
+new_tokens: 	{ [1] = pecan,[2] = halves,} 
+current ingredient: 	1 c currants dried
+new_tokens: 	{ [1] = currants,[2] = dried,} 
+current ingredient: 	1 scallion bunch thinly sliced
+new_tokens: 	{ [1] = scallion,[2] = bunch,[3] = thinly,[4] = sliced,} 
+current ingredient: 	1/2 c italian parsley chopped
+new_tokens: 	{ [1] = italian,[2] = parsley,[3] = chopped,} 
+current ingredient: 	1/2 c fresh mint leaves chopped
+new_tokens: 	{ [1] = fresh,[2] = mint,[3] = leaves,[4] = chopped,} 
+current ingredient: 	zest of 2 oranges grated
+new_tokens: 	{ [1] = zest,[2] = of,[3] = oranges,[4] = grated,} 
+current ingredient: 	2 t olive oil
+new_tokens: 	{ [1] = olive,[2] = oil,} 
+current ingredient: 	1 t orange juice
+new_tokens: 	{ [1] = orange,[2] = juice,} 
+current ingredient: 	black pepper freshly ground
+new_tokens: 	{ [1] = black,[2] = pepper,[3] = freshly,[4] = ground,} 
+
+dictionary size: 12579
+title dictionary size: 6768
+Building recipe matrices...
+nbin	1	recipe_len	157	nrecipe: 	1
+here with token:	hearty	, with tindex:	3539
+here with token:	russian	, with tindex:	1863
+here with token:	beet	, with tindex:	2691
+here with token:	soup	, with tindex:	1950
+full_title: 	hearty russian beet soup
+step is:	cover beans with water and allow to soak overnight ;
+prob_str_table:	{ [1] = cook until tender ;,[2] = set aside .,[3] = bring to a boil .,[4] = add bay leaf , peppercorns , garlic , parsley , carrot , celery , onion and salt .,[5] = scrub beets for soup and cook in boiling water until tender , about 45 minutes ;,[6] = cool .,[7] = scrub small beets ;,[8] = cover with water to soak .,[9] = set aside .,[10] = bring to a boil and simmer 45 minutes .,[11] = simmer 20 minutes more .,[12] = stir into soup to thicken slightly .,[13] = add beet liquid to soup .,[14] = pour hot soup with vegetables over meat .,} 
+evid_strs:	cook until tender ;	step_tokens:	{cover,beans,with,water,and,allow,to,soak,overnight,;}	evidence	{cook,until,tender,;}
+
+		NEW TOKEN IS:	cover
+evidence[j]:	cook
+{cook}	is represented in the symbol_to_index dictionary as:	8495
+Evid_split:	{cook}	dict.symbol_to_index[evid_split[1]]:	11212	
+dict.symbol_to_index[evid_split[2]]	nil	
+dict.symbol_to_index[evid_split[3]]	nil
+
+.......................................ERROR ERROR ERROR ERROR ERROR ERROR .......................................
+lua: bad argument #3 to '?' (torch.*Tensor expected, got nil)
+stack traceback:
+	[C]: ?
+	[C]: ?
+	build_recipe_mats_OLD.lua:610: in function 'build_recipe_matrix'
+	build_recipe_mats_OLD.lua:683: in function 'main'
+	build_recipe_mats_OLD.lua:705: in main chunk
+	[C]: ?
